@@ -30,7 +30,7 @@ app.get('/v1/explorers/:id', (req, res) => {
 app.post('/v1/explorers', (req, res) => {
 	console.log(`Api Explorers POST request ${new Date()}`)
 	const requestBody = req.body
-	res.status(201).json({mesagge: "Created"})
+	res.status(201).json({message: "Created"})
 })
 
 app.put('/v1/explorers/:id', (req, res) => {
